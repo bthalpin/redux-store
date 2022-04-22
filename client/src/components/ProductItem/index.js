@@ -18,7 +18,7 @@ function ProductItem(item) {
     price,
     quantity
   } = item;
-
+  
   const { cart } = state
 
   const addToCart = () => {

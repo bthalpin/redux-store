@@ -22,8 +22,8 @@ export default function CarProvider(props) {
   return <Provider store={store} {...props} />;
 };
 
-const useStoreContext = () => {
-  return useContext(StoreContext);
-};
+// const useStoreContext = () => {
+//   return useContext(StoreContext);
+// };
 
-export { StoreProvider, useStoreContext };
+// export { StoreProvider, useStoreContext };

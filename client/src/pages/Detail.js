@@ -5,7 +5,7 @@ import { useQuery } from '@apollo/client';
 import Cart from '../components/Cart';
 import { useDispatch, useSelector } from 'react-redux';
 
-// import { useStoreContext } from '../utils/GlobalState';
+
 import {
   REMOVE_FROM_CART,
   UPDATE_CART_QUANTITY,
@@ -17,7 +17,7 @@ import { idbPromise } from '../utils/helpers';
 import spinner from '../assets/spinner.gif';
 
 function Detail() {
-  // const [state, dispatch] = useStoreContext();
+  
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
   const { id } = useParams();

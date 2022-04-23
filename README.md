@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-I refactored an E-commerce site to use redux instead of React Context API.
+I refactored an E-commerce site that was using React Context API so that is used redux.
 
 ## Table of Contents
 
